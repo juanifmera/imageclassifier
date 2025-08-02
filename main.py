@@ -8,6 +8,8 @@ from keras.applications.mobilenet_v2 import (
     decode_predictions
 )
 
+# Comentario de Prueba para seguir el verisonado
+
 def load_model():
     model = MobileNetV2(weights='imagenet')
     return model
